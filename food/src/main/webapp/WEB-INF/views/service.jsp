@@ -119,9 +119,8 @@
               <span class="fa fa-snowflake-o" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">Seasonal Pastries</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet
-              </p>
+              <h4 class="pb-3">Seasonal Chocolate</h4>              
+              <p>시즌1 : 상상하는 모든것, 좋아 하는 모든것, 만들고 싶은 모든 것, 내 머리속 모든 상상을 초콜렛으로 새롭게 만들어 보자</p>
             </div>
           </div>
         </div>
@@ -133,7 +132,7 @@
               <span class="fa fa-thumbs-o-up" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">Best Service</h4>
+              <h4 class="pb-3">가능한 서비스</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet</p>
             </div>
           </div>

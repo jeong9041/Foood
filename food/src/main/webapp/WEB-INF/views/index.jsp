@@ -19,6 +19,7 @@
       window.scrollTo(0, 1);
     }
   </script>
+  <script src="https://kit.fontawesome.com/c9c311ecf5.js"></script>
   <!--//meta tags ends here-->
   <!--booststrap-->
   <link href="/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
@@ -149,7 +150,7 @@
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 about-two-grids my-3">
-          <span class="fa fa-bars mb-3" aria-hidden="true"></span>
+          <span class="fas fa-air-freshener" aria-hidden="true"></span>  <!-- https://fontawesome.com/폰트참조 -->
           <h4>Recipes</h4>
           <div class="about-para-txt mt-2">
             <p>Lorem ipsum dolor sit amet eiusmod tempor incididunt ut labore et consectetur adipiscing</p>
