@@ -10,7 +10,7 @@
 <html>
 
 <head>
-  <title>Gateau a hotel & Restaurant Category Bootstrap Responsive web Template|Contact :: w3layouts</title>
+  <title>Chocolate gallary</title>
   <!--meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">

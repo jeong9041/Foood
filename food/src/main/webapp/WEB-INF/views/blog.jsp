@@ -10,7 +10,7 @@
 <html>
 
 <head>
-  <title>Gateau a hotel & Restaurant Category Bootstrap Responsive web Template|Blog :: w3layouts</title>
+  <title>Chocolate gallary</title>
   <!--meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -192,7 +192,7 @@
           <div class="row mt-lg-4 mt-3">
             <div class="col-lg-6 col-md-6 col-sm-6">
               <div class="view-buttn">
-                <a href="single.jsp" class="btn">Read More </a>
+                <a href="/single" class="btn">Read More </a>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 blog-date-time text-sm-right col-sm-6 ">
