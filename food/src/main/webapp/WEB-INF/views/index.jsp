@@ -206,7 +206,7 @@
               <span class="fa fa-snowflake-o" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">Seasonal Pastries</h4>
+              <h4 class="pb-3">Seasonal Chocolate</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet
               </p>
             </div>

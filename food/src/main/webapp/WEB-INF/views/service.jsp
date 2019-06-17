@@ -143,7 +143,7 @@
               <span class="fa fa-laptop" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">Online Order</h4>
+              <h4 class="pb-3">Online 주문</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet</p>
             </div>
           </div>
@@ -154,7 +154,7 @@
               <span class="fa fa-smile-o" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">Door Delivery</h4>
+              <h4 class="pb-3"> 배송 서비스</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet</p>
             </div>
           </div>
@@ -165,7 +165,7 @@
               <span class="fa fa-magic" aria-hidden="true"></span>
             </div>
             <div class="ser-sevice-grid">
-              <h4 class="pb-3">fa fa-users</h4>
+              <h4 class="pb-3">다른 무언가?</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna Lorem ipsum dolor sit amet</p>
             </div>
           </div>
