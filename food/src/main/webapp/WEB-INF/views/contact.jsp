@@ -145,21 +145,21 @@
         <div class="col-lg-6 col-md-6 col-sm-5">
           <div class="contact-list-grid">
             <h4>Branch 1</h4>
-            <p class="pt-2">Melbourne St,South Birbane 4101</p>
-            <p>Austraila</p>
+            <p class="pt-2">대구 아양로 218</p>
+            <p>Seoul Korea</p>
           </div>
           <div class="contact-list-grid my-lg-4 my-3">
             <h4>Phone</h4>
-            <p class="pt-2">(000)1122333</p>
-            <p>+(000) 123 4565 32</p>
+            <p class="pt-2">(010)88550561</p>
+            <p>+(082) 010 8855 0561</p>
           </div>
           <div class="contact-list-grid">
             <h4>Email</h4>
             <p class="pt-2">
-              <a href="mailto:info@example.com">info@example1.com</a>
+              <a href="mailto:info@example.com">jeong9041@gmail.com</a>
             </p>
             <p class="pt-2">
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="mailto:info@example.com">jeong9041@naver.com</a>
             </p>
           </div>
         </div>
