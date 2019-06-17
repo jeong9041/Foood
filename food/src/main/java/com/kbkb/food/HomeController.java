@@ -37,8 +37,8 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model,HttpSession session, SingleDTO mdto) {
 		
-		List<SingleDTO> list = sqlsession.selectList("single.selectpage", new Page(1, 4));
-		int pageCnt = sqlsession.selectOne("single.selectcount");
+		List<SingleDTO> list = sqlsession.selectList("home.selectpage", new Page(1, 3));
+		int pageCnt = sqlsession.selectOne("home.selectcount");
 //		logger.info("pageCnt = "+pageCnt);
 
 		model.addAttribute("singleListPage", list);
