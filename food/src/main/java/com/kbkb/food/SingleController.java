@@ -38,7 +38,7 @@ public class SingleController {
 	@RequestMapping(value = "/single")
 	public String home(Locale locale, Model model, HttpSession session, SingleDTO mdto) {
 
-		List<SingleDTO> list = sqlsession.selectList("single.selectpage", new Page(1, 10));
+		List<SingleDTO> list = sqlsession.selectList("single.selectpage", new Page(1, 5));
 		int pageCnt = sqlsession.selectOne("single.selectcount");
 //		logger.info("pageCnt = "+pageCnt);
 
