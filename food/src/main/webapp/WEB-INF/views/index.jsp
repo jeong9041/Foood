@@ -4,7 +4,7 @@
 <html>
 
 <head>
-  <title>Gateau a hotel & Restaurant Category Bootstrap Responsive web Template| Home :: w3layouts</title>
+  <title>Chocolate</title>
   <!--meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -155,7 +155,7 @@
             <p>Lorem ipsum dolor sit amet eiusmod tempor incididunt ut labore et consectetur adipiscing</p>
           </div>
           <div class="view-buttn mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Order now </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 about-two-grids my-3">
@@ -165,7 +165,7 @@
             <p>Lorem ipsum dolor sit amet eiusmod tempor incididunt ut labore et consectetur adipiscing</p>
           </div>
           <div class="view-buttn mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Order now  </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 about-two-grids my-3">
@@ -175,7 +175,7 @@
             <p>Lorem ipsum dolor sit amet eiusmod tempor incididunt ut labore et consectetur adipiscing</p>
           </div>
           <div class="view-buttn mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Order now  </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 title-right-side my-3">
@@ -304,7 +304,7 @@
           <p class="mt-2">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
             ut labore et consectetur adipiscing sed do eiusmod</p>
           <div class="view-buttn mt-lg-5 mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Oredr now </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 collective-images position-relative">
@@ -334,7 +334,7 @@
             sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
             ut labore et consectetur adipiscing sed do eiusmod</p>
           <div class="view-buttn mt-lg-5 mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Order now </a>
           </div>
         </div>
 
@@ -347,7 +347,7 @@
           <p class="mt-2">sed do eiusmod tempor incididunt ut Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, eiusmod tempor incididunt
             ut labore et consectetur adipiscing sed do eiusmod</p>
           <div class="view-buttn mt-lg-5 mt-md-4 mt-3">
-            <a href="/single" class="btn">Read More </a>
+            <a href="/contact" class="btn">Order now </a>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 collective-images my-3">
@@ -365,42 +365,21 @@
   <section class="client py-lg-4 py-md-3 py-sm-3 py-3" id="client">
     <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
       <div class="row">
+      <c:forEach items="${singleListPage}" var="mdto" varStatus="i">
         <div class="col-lg-3 col-md-6 col-sm-6 cilent-item text-center my-3">
           <div class="clients-ile-img">
-            <img src="/resources/images/cc2.jpg" alt=" " class="img-fluid">
+            <img id="imgpath" src="/resources/${mdto.imageFileName}" alt="Avatar" class="avatar">
             <div class="clients-color-ile text-center mt-lg-4 mt-3">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Lorem ipsum dolor sit amet
+              <p>${mdto.name}
               </p>
               <div class="mt-3 clients-txt-ile">
-                <h4>Jack Will</h4>
+                <h4>${mdto.name}</h4>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cilent-item text-center my-3">
-          <div class="clients-ile-img">
-            <img src="/resources/images/cc1.jpg" alt=" " class="img-fluid">
-            <div class="clients-color-ile text-center mt-lg-4 mt-3">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Lorem ipsum dolor sit amet
-              </p>
-              <div class="mt-3 clients-txt-ile">
-                <h4>Sam Deo</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 cilent-item text-center my-3">
-          <div class="clients-ile-img">
-            <img src="/resources/images/cc2.jpg" alt=" " class="img-fluid">
-            <div class="clients-color-ile text-center mt-lg-4 mt-3">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Lorem ipsum dolor sit amet
-              </p>
-              <div class="mt-3 clients-txt-ile">
-                <h4>Max Rox</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+        </c:forEach>
+        
         <div class="col-lg-3 col-md-6 col-sm-6 title-right-side my-3">
           <div class="rotated-title">
             <h3 class="title mb-lg-4 mb-md-3 mb-2">Clients</h3>

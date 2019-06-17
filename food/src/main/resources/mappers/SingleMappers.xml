@@ -23,7 +23,7 @@
 	</select>
 	
 	<select id="selectcount" resultType="java.lang.Integer">
-		select round(count(*)/5)+1 from commentbox;
+		select round(count(*)/4)+1 from commentbox;
 	</select>
 </mapper>
 

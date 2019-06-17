@@ -192,11 +192,11 @@
             <ul class="mt-lg-4 mt-3">
               <li>
                 <p>
-                  <span>Call</span> +123 4567 890</p>
+                  <span>Call</span> 010 8855 0561</p>
               </li>
               <li class="mt-lg-3 mt-2">
                 <p>
-                  <span> Email</span> +123 4567 890</p>
+                  <span> Email</span> jeong9041@gmail.com</p>
               </li>
             </ul>
             <div class="order-buttn mt-lg-4 mt-3">

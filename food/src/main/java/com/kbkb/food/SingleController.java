@@ -38,7 +38,7 @@ public class SingleController {
 	@RequestMapping(value = "/single")
 	public String home(Locale locale, Model model, HttpSession session, SingleDTO mdto) {
 
-		List<SingleDTO> list = sqlsession.selectList("single.selectpage", new Page(1, 5));
+		List<SingleDTO> list = sqlsession.selectList("single.selectpage", new Page(1, 4));
 		int pageCnt = sqlsession.selectOne("single.selectcount");
 //		logger.info("pageCnt = "+pageCnt);
 
@@ -54,12 +54,12 @@ public class SingleController {
 
 //		logger.info("page = " + page);
 
-		int pageCount = 5;
-		Page pageobj = new Page(0, 5);
+		int pageCount = 4;
+		Page pageobj = new Page(0, 4);
 
 		if (page == 1) {
 			pageobj.setStartrow(0);
-			pageobj.setEndrow(5);
+			pageobj.setEndrow(4);
 		} else {
 			pageobj.setStartrow( pageCount * (page-1) );
 //			pageobj.setEndrow(page * pageCount);
