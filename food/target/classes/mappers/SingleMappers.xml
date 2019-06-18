@@ -8,7 +8,7 @@
 		insert into commentbox
 			(name,imageFileName,message,reg_date)
 			values
-			(#{name},#{imageFileName},#{message},NOW())
+			(#{name},#{imageFileName},#{message},now())
 	</insert>	
 	
  	<select id="selectAll" resultType="com.kbkb.food.single.SingleDTO">

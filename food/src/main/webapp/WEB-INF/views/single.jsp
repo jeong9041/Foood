@@ -185,8 +185,8 @@
 					<h3 class="comments-title">Leave Comments</h3>
 					<a href="/comment/#commentstart" class="leave-comment">Input a Comment</a>
 					<c:forEach items="${singleListPage}" var="mdto" varStatus="i">
-<%-- 						<c:choose> --%>
-<%--  							<c:when test="${i.index < 5 }"> --%>
+						<c:choose>
+ 							<c:when test="${i.index < 4 }">
 								<ol class="comments-list">									
 									<li class="comment">									
 										<div>							
@@ -201,10 +201,10 @@
 										</div>
 									</li>
 								</ol>
-<%-- 							</c:when> --%>
-<%--  							<c:when test="${i.index >= 5}"> --%>
-<%--  							</c:when> --%>
-<%--  						</c:choose> --%>
+							</c:when>
+ 							<c:when test="${i.index >= 4}">
+ 							</c:when>
+ 						</c:choose>
 					</c:forEach>
 					<div class="clearfix"></div>
 			
